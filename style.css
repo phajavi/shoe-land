@@ -1,0 +1,31 @@
+body {
+    background-image: url('https://img.freepik.com/free-photo/leather-shoes-wooden-background_1203-7618.jpg?w=2000');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#sportCard {
+    border: none;
+    box-shadow: 0 0 10px red;
+    transition: transform .2s;
+}
+
+#formalCard {
+    border: none;
+    box-shadow: 0 0 10px navy;
+    transition: transform .2s;
+}
+
+#casualCard {
+    border: none;
+    box-shadow: 0 0 10px #F9E3AF;
+    transition: transform .2s;
+}
+
+#sportCard:hover,
+#formalCard:hover,
+#casualCard:hover {
+    transform: scale(1.3);
+    z-index: 1;
+}
